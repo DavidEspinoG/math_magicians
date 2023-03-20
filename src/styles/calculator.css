@@ -1,3 +1,8 @@
 .calculator {
   width: 35rem;
 }
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

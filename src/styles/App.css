@@ -1,5 +1,5 @@
 :root {
-  --gray: #848383; 
+  --gray: #848383;
   --light-gray: rgb(195, 195, 195);
   --orange: rgb(246, 160, 0);
 }
@@ -13,6 +13,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 *,
 *::after,
 *::before {
