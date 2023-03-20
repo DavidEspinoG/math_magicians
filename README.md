@@ -26,7 +26,7 @@
 
 # 📖 Math Magicians <a id="about-project"></a>
 
-SPA created using React.js
+SPA created using React.js, it includes it's own calculator, a home page and a Quote Section. 
 
 ## 🛠 Built With <a id="built-with"></a>
 
