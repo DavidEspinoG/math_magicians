@@ -16,7 +16,7 @@ const Calculator = () => {
     '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
   return (
     <div className="calculator">
-      <CalculatorInput number={1} />
+      <CalculatorInput number={0} />
       <div className="calculator-buttons">
         {buttonValues.map((element) => (
           <CalculatorButton
