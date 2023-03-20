@@ -72,7 +72,7 @@ SPA created using React.js
 ## 🚀 Live Demo <a id="live-demo"></a>
 
 
-- [Deploy pending](https://davidespinog.github.io/capstone_project_2_API/)
+- [Deploy pending]()
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
