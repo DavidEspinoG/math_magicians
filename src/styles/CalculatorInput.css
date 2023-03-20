@@ -1,0 +1,9 @@
+.calculator-input {
+  background-color: var(--gray);
+  font-size: 3rem;
+  color: white;
+  font-weight: 500;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
