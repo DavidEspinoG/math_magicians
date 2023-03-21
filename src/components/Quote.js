@@ -20,13 +20,11 @@ const Quote = () => {
         const data = await res.json();
         setQuote(data[0].quote);
         setAuthor(data[0].author);
-        console.log(data[0].quote);
         setLoading(false);
         setError(false);
       } catch (err) {
         setLoading(false);
         setError(true);
-        console.log('ups');
       }
     };
     getQuote();
