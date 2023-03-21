@@ -31,7 +31,4 @@ const CalculatorInput = ({ state }) => {
 CalculatorInput.propTypes = {
   state: PropTypes.instanceOf(Object).isRequired,
 };
-// CalculatorInput.defaultProps = {
-//   total: '0',
-// };
 export default CalculatorInput;
