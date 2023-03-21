@@ -5,6 +5,12 @@
   justify-content: center;
   align-items: center;
   border: 0.5px solid var(--gray);
+  transition: transform, 0.3s;
+}
+
+.calculator-button:hover {
+  transform: scale(1.036);
+  color: white;
 }
 
 .gray {
