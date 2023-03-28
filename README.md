@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 capstone\_project\_2\_API ](#-capstone_project_2_api-)
+- [📖 Math magician ](#-capstone_project_2_api-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -72,7 +72,7 @@ SPA created using React.js, it includes it's own calculator, a home page and a Q
 ## 🚀 Live Demo <a id="live-demo"></a>
 
 
-- [Deploy pending]()
+- [Live demo](https://math-magicians-pqa2.onrender.com/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
