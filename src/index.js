@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 import './styles/index.css';
 import Root from './routes/Root';
@@ -8,7 +8,7 @@ import CalculatorRoute from './routes/CalculatorRoute';
 import HomeRoute from './routes/HomeRoute';
 import QuoteRoute from './routes/QuoteRoute';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Root />,
