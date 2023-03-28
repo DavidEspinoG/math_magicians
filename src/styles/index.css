@@ -1,10 +1,10 @@
 :root {
   --gray: #848383;
   --light-gray: rgb(195, 195, 195);
-  --orange: #FFB84C;
-  --white: #F5EAEA;
-  --salmon: #F16767;
-  --purple: #A459D1;
+  --orange: #ffb84c;
+  --white: #f5eaea;
+  --salmon: #f16767;
+  --purple: #a459d1;
 }
 
 html {
