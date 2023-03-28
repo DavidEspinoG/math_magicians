@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import '../styles/CalculatorInput.css';
 
 const CalculatorInput = ({ state }) => {
-  // const { total, next } = state;
   const toShow = (obj) => {
     if (obj.total === '0' && !obj.next && !obj.operation) {
       return '0';

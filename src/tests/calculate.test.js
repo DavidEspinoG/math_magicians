@@ -17,3 +17,12 @@ test('Obj.total is equals to 2 when 1 + 1', () => {
   }
   expect(calculate(obj, '=').total).toBe('2');
 })
+
+test('AC button cleans the total returning null', () => {
+  const obj = {
+    total: 1, 
+    next: 1,
+    operation: '+'
+  }
+  expect(calculate(obj, 'AC').total).toBeNull();
+})
