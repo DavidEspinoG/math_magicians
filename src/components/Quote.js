@@ -30,12 +30,12 @@ const Quote = () => {
     getQuote();
   }, []);
   return (
-    <div>
+    <>
       <p className="quote">{quote}</p>
       <p className="author">{author}</p>
       {loading && <p className="loading">Loading...</p>}
       {error && <p className="loading">Something went wrong, please refresh the page 🤕</p>}
-    </div>
+    </>
   );
 };
 

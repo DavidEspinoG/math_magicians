@@ -6,6 +6,7 @@ import './styles/index.css';
 import Root from './routes/Root';
 import CalculatorRoute from './routes/CalculatorRoute';
 import HomeRoute from './routes/HomeRoute';
+import QuoteRoute from './routes/QuoteRoute';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: '/calculator',
         element: <CalculatorRoute />,
+      },
+      {
+        path: '/quote',
+        element: <QuoteRoute />,
       },
     ],
   },
