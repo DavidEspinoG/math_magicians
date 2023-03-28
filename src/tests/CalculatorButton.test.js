@@ -1,6 +1,6 @@
-import CalculatorButton from "../components/CalculatorButton";
-import { render, screen } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
+import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import CalculatorButton from '../components/CalculatorButton';
 
 test('Calculator button renders the correct symbol', () => {
   const mockFuction1 = jest.fn();
@@ -10,16 +10,16 @@ test('Calculator button renders the correct symbol', () => {
     next: null,
     operation: null,
   };
-  render(<CalculatorButton 
+  render(<CalculatorButton
     content="p"
-    color='gray'  
+    color="gray"
     onClick={mockFuction1}
     state={initialState}
     setState={mockFuction2}
-    />);
-  const letter = screen.getByText('p')
-  expect(letter).toBeInTheDocument()
-})
+  />);
+  const letter = screen.getByText('p');
+  expect(letter).toBeInTheDocument();
+});
 test('Calculator match the snapshot', () => {
   const mockFuction1 = jest.fn();
   const mockFuction2 = jest.fn();
@@ -28,15 +28,15 @@ test('Calculator match the snapshot', () => {
     next: null,
     operation: null,
   };
-  const component = render(<CalculatorButton 
+  const component = render(<CalculatorButton
     content="p"
-    color='gray'  
+    color="gray"
     onClick={mockFuction1}
     state={initialState}
     setState={mockFuction2}
-    />);
-  expect(component).toMatchSnapshot()
-})
+  />);
+  expect(component).toMatchSnapshot();
+});
 test('Clicking in one button calls the onClick function', () => {
   const mockFuction1 = jest.fn();
   const mockFuction2 = jest.fn();
@@ -45,17 +45,16 @@ test('Clicking in one button calls the onClick function', () => {
     next: null,
     operation: null,
   };
-  render(<CalculatorButton 
+  render(<CalculatorButton
     content="9"
-    color='gray'  
+    color="gray"
     onClick={mockFuction1}
     state={initialState}
     setState={mockFuction2}
-    />);
-  const button = screen.getByText('9')
+  />);
+  const button = screen.getByText('9');
   userEvent.click(button);
   userEvent.click(button);
   userEvent.click(button);
-  expect(mockFuction1).toHaveBeenCalledTimes(3)
-})
-
+  expect(mockFuction1).toHaveBeenCalledTimes(3);
+});
