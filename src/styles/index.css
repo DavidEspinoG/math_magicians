@@ -1,17 +1,23 @@
 :root {
   --gray: #848383;
   --light-gray: rgb(195, 195, 195);
-  --orange: rgb(246, 160, 0);
+  --orange: #ffb84c;
+  --white: #f5eaea;
+  --salmon: #f16767;
+  --purple: #a459d1;
 }
 
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  height: 100%;
+  font-family: 'EB Garamond', serif;
 }
 
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 *,

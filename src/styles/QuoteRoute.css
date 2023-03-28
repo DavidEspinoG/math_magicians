@@ -1,0 +1,18 @@
+.quote-container {
+  width: 120rem;
+  max-width: 90%;
+  background-color: var(--white);
+  margin: 13rem auto;
+  padding: 2rem;
+}
+
+.quote,
+.loading {
+  font-size: 3rem;
+  color: var(--purple);
+}
+
+.author {
+  font-size: 3rem;
+  color: var(--orange);
+}
