@@ -28,7 +28,7 @@ const Calculator = () => {
   const buttonValues = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x',
     '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
   return (
-    <div className="calculator">
+    <div className="calculator" data-testid="calculator">
       <CalculatorInput state={state} />
       <div className="calculator-buttons">
         {buttonValues.map((element) => (
