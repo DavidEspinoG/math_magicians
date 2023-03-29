@@ -20,7 +20,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "fix": "eslint \"**/*.{js,jsx}\" --fix && stylelint \"**/*.{css,scss}\" --fix",
-    "lint": "eslint \"**/*.{js,jsx}\" --fix"
+    "lint": "eslint \"**/*.{js,jsx}\" --fix",
+    "snapshot": "jest --updateSnapshot"
   },
   "eslintConfig": {
     "extends": [

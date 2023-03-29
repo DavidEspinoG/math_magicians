@@ -7,6 +7,7 @@ Object {
     <div>
       <div
         class="calculator"
+        data-testid="calculator"
       >
         <div
           class="calculator-input"
@@ -196,6 +197,7 @@ Object {
   "container": <div>
     <div
       class="calculator"
+      data-testid="calculator"
     >
       <div
         class="calculator-input"
